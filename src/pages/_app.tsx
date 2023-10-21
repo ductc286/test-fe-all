@@ -16,6 +16,14 @@ import "primereact/resources/themes/lara-light-blue/theme.css";
 import { usePassThrough } from "primereact/passthrough";
 import { classNames } from "primereact/utils";
 
+// import the library
+import { library } from '@fortawesome/fontawesome-svg-core'
+// import your icons
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+library.add(fab, fas, far)
+// import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 export default function App({ Component, pageProps }: AppProps) {

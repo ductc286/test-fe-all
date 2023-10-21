@@ -8,6 +8,7 @@ export default function MenuCpn() {
       <Link href={"/tailwind"}>tailwind</Link>
       <Link href={"/prime-other"}>prime-other</Link>
       <Link href={"/material-react-table"}>material-react-table</Link>
+      <Link href={"/font-awesome"}>font-awesome</Link>
     </div>
   );
 }
